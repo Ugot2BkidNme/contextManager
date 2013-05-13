@@ -1,4 +1,3 @@
-/*! contextManager v1.0.0 Copyright (c) 2013 Ugot2BkidNme(Barry A. Rader) license:https://github.com/Ugot2BkidNme/contextManager/blob/master/license.txt */
 (function (window, undefined) {
 	this.contextManager = function () {
 		var
@@ -111,7 +110,7 @@
 			,replaceText: replaceText
 			,encodeHTML: encodeHTML
 			,decodeHTML: decodeHTML
-		}
-	}
+		};
+	};
 	window.contextManager = this.contextManager();
 })(window);
